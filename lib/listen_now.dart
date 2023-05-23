@@ -12,7 +12,7 @@ class ListenNow extends StatelessWidget {
       backgroundColor: const Color.fromARGB(255, 224, 218, 233),
       body: Padding(
         padding:
-            const EdgeInsets.only(top: 50, bottom: 50, left: 10, right: 10),
+            const EdgeInsets.only(top: 55, bottom: 50, left: 10, right: 10),
         child: Center(
             child: Column(
           // mainAxisAlignment: MainAxisAlignment.spaceBetween,

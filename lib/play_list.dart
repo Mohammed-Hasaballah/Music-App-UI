@@ -9,7 +9,7 @@ class PlayList extends StatelessWidget {
       backgroundColor: const Color.fromARGB(255, 224, 218, 233),
       body: Padding(
         padding:
-            const EdgeInsets.only(top: 150, bottom: 50, left: 10, right: 10),
+            const EdgeInsets.only(top: 150, bottom: 50, left: 16, right: 16),
         child: Column(
           children: [
             Row(
