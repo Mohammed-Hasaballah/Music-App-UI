@@ -21,8 +21,8 @@ class ListenNow extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
                 Container(
-                  width: 50,
-                  height: 50,
+                  padding:
+                      const EdgeInsets.symmetric(vertical: 14, horizontal: 14),
                   decoration: const BoxDecoration(
                     shape: BoxShape.circle,
                     color: Color.fromARGB(255, 217, 214, 214),
@@ -40,23 +40,14 @@ class ListenNow extends StatelessWidget {
                       ),
                     ],
                   ),
-                  child: Row(
-                    children: const [
-                      SizedBox(
-                        width: 16,
-                      ),
-                      Center(
-                        child: Icon(
-                          Icons.arrow_back_ios,
-                          color: Color.fromARGB(255, 158, 153, 153),
-                        ),
-                      ),
-                    ],
+                  child: const Icon(
+                    Icons.arrow_back_ios,
+                    color: Color.fromARGB(255, 158, 153, 153),
                   ),
                 ),
                 Container(
-                  width: 50,
-                  height: 50,
+                  padding:
+                      const EdgeInsets.symmetric(vertical: 14, horizontal: 14),
                   decoration: const BoxDecoration(
                     shape: BoxShape.circle,
                     color: Color.fromARGB(255, 217, 214, 214),
@@ -185,8 +176,8 @@ class ListenNow extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [
                 Container(
-                  width: 80,
-                  height: 80,
+                  padding:
+                      const EdgeInsets.symmetric(vertical: 28, horizontal: 28),
                   decoration: const BoxDecoration(
                     shape: BoxShape.circle,
                     color: Color.fromARGB(255, 217, 214, 214),
@@ -210,8 +201,8 @@ class ListenNow extends StatelessWidget {
                   ),
                 ),
                 Container(
-                  width: 80,
-                  height: 80,
+                  padding:
+                      const EdgeInsets.symmetric(vertical: 28, horizontal: 28),
                   decoration: const BoxDecoration(
                     shape: BoxShape.circle,
                     color: Color.fromARGB(255, 170, 146, 190),
@@ -235,8 +226,8 @@ class ListenNow extends StatelessWidget {
                   ),
                 ),
                 Container(
-                  width: 80,
-                  height: 80,
+                  padding:
+                      const EdgeInsets.symmetric(vertical: 28, horizontal: 28),
                   decoration: const BoxDecoration(
                     shape: BoxShape.circle,
                     color: Color.fromARGB(255, 217, 214, 214),

@@ -16,8 +16,8 @@ class PlayList extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
                 Container(
-                  width: 60,
-                  height: 60,
+                  padding:
+                      const EdgeInsets.symmetric(vertical: 16, horizontal: 16),
                   decoration: const BoxDecoration(
                     shape: BoxShape.circle,
                     color: Color.fromARGB(255, 217, 214, 214),
@@ -35,18 +35,9 @@ class PlayList extends StatelessWidget {
                       ),
                     ],
                   ),
-                  child: Row(
-                    children: const [
-                      SizedBox(
-                        width: 16,
-                      ),
-                      Center(
-                        child: Icon(
-                          Icons.description,
-                          color: Color.fromARGB(255, 158, 153, 153),
-                        ),
-                      ),
-                    ],
+                  child: const Icon(
+                    Icons.description,
+                    color: Color.fromARGB(255, 158, 153, 153),
                   ),
                 ),
                 GestureDetector(
@@ -60,8 +51,8 @@ class PlayList extends StatelessWidget {
                   ),
                 ),
                 Container(
-                  width: 60,
-                  height: 60,
+                  padding:
+                      const EdgeInsets.symmetric(vertical: 16, horizontal: 16),
                   decoration: const BoxDecoration(
                     shape: BoxShape.circle,
                     color: Color.fromARGB(255, 217, 214, 214),
@@ -79,18 +70,9 @@ class PlayList extends StatelessWidget {
                       ),
                     ],
                   ),
-                  child: Row(
-                    children: const [
-                      SizedBox(
-                        width: 16,
-                      ),
-                      Center(
-                        child: Icon(
-                          Icons.more_horiz,
-                          color: Color.fromARGB(255, 158, 153, 153),
-                        ),
-                      ),
-                    ],
+                  child: const Icon(
+                    Icons.more_horiz,
+                    color: Color.fromARGB(255, 158, 153, 153),
                   ),
                 ),
               ],
@@ -118,8 +100,8 @@ class PlayList extends StatelessWidget {
                       ],
                     ),
                     Container(
-                      width: 44,
-                      height: 44,
+                      padding: const EdgeInsets.symmetric(
+                          vertical: 10, horizontal: 10),
                       decoration: const BoxDecoration(
                         shape: BoxShape.circle,
                         color: Color.fromARGB(255, 217, 214, 214),
@@ -165,8 +147,8 @@ class PlayList extends StatelessWidget {
                       ],
                     ),
                     Container(
-                      width: 44,
-                      height: 44,
+                      padding: const EdgeInsets.symmetric(
+                          vertical: 10, horizontal: 10),
                       decoration: const BoxDecoration(
                         shape: BoxShape.circle,
                         color: Color.fromARGB(255, 217, 214, 214),
@@ -219,8 +201,8 @@ class PlayList extends StatelessWidget {
                         ],
                       ),
                       Container(
-                        width: 44,
-                        height: 44,
+                        padding: const EdgeInsets.symmetric(
+                            vertical: 10, horizontal: 10),
                         decoration: const BoxDecoration(
                           shape: BoxShape.circle,
                           color: Color.fromARGB(255, 170, 146, 190),
@@ -267,8 +249,8 @@ class PlayList extends StatelessWidget {
                       ],
                     ),
                     Container(
-                      width: 44,
-                      height: 44,
+                      padding: const EdgeInsets.symmetric(
+                          vertical: 10, horizontal: 10),
                       decoration: const BoxDecoration(
                         shape: BoxShape.circle,
                         color: Color.fromARGB(255, 217, 214, 214),
@@ -314,8 +296,8 @@ class PlayList extends StatelessWidget {
                       ],
                     ),
                     Container(
-                      width: 44,
-                      height: 44,
+                      padding: const EdgeInsets.symmetric(
+                          vertical: 10, horizontal: 10),
                       decoration: const BoxDecoration(
                         shape: BoxShape.circle,
                         color: Color.fromARGB(255, 217, 214, 214),
@@ -347,8 +329,8 @@ class PlayList extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   children: [
                     Container(
-                      width: 80,
-                      height: 80,
+                      padding: const EdgeInsets.symmetric(
+                          vertical: 28, horizontal: 28),
                       decoration: const BoxDecoration(
                         shape: BoxShape.circle,
                         color: Color.fromARGB(255, 217, 214, 214),
@@ -372,8 +354,8 @@ class PlayList extends StatelessWidget {
                       ),
                     ),
                     Container(
-                      width: 80,
-                      height: 80,
+                      padding: const EdgeInsets.symmetric(
+                          vertical: 28, horizontal: 28),
                       decoration: const BoxDecoration(
                         shape: BoxShape.circle,
                         color: Color.fromARGB(255, 170, 146, 190),
@@ -397,8 +379,8 @@ class PlayList extends StatelessWidget {
                       ),
                     ),
                     Container(
-                      width: 80,
-                      height: 80,
+                      padding: const EdgeInsets.symmetric(
+                          vertical: 28, horizontal: 28),
                       decoration: const BoxDecoration(
                         shape: BoxShape.circle,
                         color: Color.fromARGB(255, 217, 214, 214),
